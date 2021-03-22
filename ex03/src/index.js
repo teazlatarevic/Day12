@@ -1,6 +1,6 @@
 // Only change code below this line
 function rangeOfNumbers(startN, endN) {
-    if (startN - endN === 0) {
+    if (startN === endN) {
         return [startN];
     } else if (startN > endN) {
         return "The starting number will always be less than or equal to the ending number";
